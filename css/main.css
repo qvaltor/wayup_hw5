@@ -174,10 +174,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', end
 /* 992px - 1200px */
 @media screen and (max-width: 1200px) {
 	.container {
-		width: 960px;}
+		width: 960px;
+	}
 
 	.btn-form {
-			margin: 11px 153px;
+			margin: 11px 350px;
+	}
+	
+	.input {
+		width: 100%;
+		margin: 11px 350px;
 	}
 }
 
@@ -210,9 +216,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', end
 	}
 
 	.btn {
-		margin-left: none;}
+		margin-left: none;
 	}
 
+	.input {
+		width: 100%;
+		margin: 11px 200px;
+	}
+	.btn-form {
+		margin: 11px 200px;
+	}
+}
 /* 576px - 768px */
 @media screen and (max-width: 768px) {
 	.container {
@@ -223,7 +237,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', end
 	}
 	.input {
 		width: 100%;
-		margin: 11px 30%;
+		margin: 11px 100px;
 	}
 	.btn {
 		margin-left: 30%;
